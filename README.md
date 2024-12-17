@@ -8,10 +8,23 @@ This repo contains the SOLIDWORKS model and reports for a swerve drivetrain deve
 
 ## Explanation of a "Swerve Drivetrain"
 **What is it?**
+
 A swerve drivetrain is a type of drivetrain that can rotate it's wheels in any direction to allow complete freedom of motion.
 
 **What types are there?**
+
 There are 3 basic types of swerve drivetrains: direct drive, transmission, and differential. This design is a differential swerve drive.
 
 **How does it work?**
+
 In a differential swerve drive, each wheel is driven by 2 motors connected to 2 main gears (top and bottom) gear which are connected to 2 pinion gears which connects to the axle. When the 2 main gears rotate in the same direction, the wheel will turn in that direction. When the 2 main gears rotate in opposite directions, the wheel will spin according to the gear speed difference. By combining how you power the main gears you can make the wheel drive and turn in any direction.
+
+See these examples below:
+
+**Driving**
+
+![Wheel moving forward](Pictures/TranslationExample.gif)
+
+**Turning**
+
+![Wheel turning](Pictures/RotationExample.gif)
